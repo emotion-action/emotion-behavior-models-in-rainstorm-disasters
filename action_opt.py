@@ -11,7 +11,7 @@ class Opt:
         # 数据
         self.DATA_DIR = os.path.join(self.ROOT_DIR, "data")
         self.DATA_PATH = os.path.join(self.DATA_DIR, "标注数据.xlsx")
-        self.PREDICT_DATA_PATH = os.path.join(self.DATA_DIR, "20250222-5 更正后版本.xlsx")
+        self.PREDICT_DATA_PATH = os.path.join(self.DATA_DIR, "*.xlsx")
         # self.PREDICT_RESULT_PATH = os.path.join(self.DATA_DIR, "行为数据3770预测数据结果.xlsx")
         self.SHEET_NAME = "标注政府 (新)"  # 用哪个数据   标注政府 (新) 标注公众 (新)
 
